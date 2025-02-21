@@ -24,7 +24,7 @@ After cloning the repo
 3. Change the IP @ in the file setup/openrc with the IP of an interface that has access to internet. The line is:
 export OS_AUTH_URL=http://{{IP@}}/identity
 
-4. Run prepare_infra.sh, accept everything at first run.
+4. Run prepare_infra.sh, accept everything at first run
 
 PS:
 *  This WILL take a LONG time, and you are needed in the first 10-15 minutes to fill some needed variables (like the password for openstack admin user and other passwords and things, ADVICE: Document everything you type) after those 15 minutes you can go have a coffee.
